@@ -1,0 +1,21 @@
+.layout16_content {
+    transition: opacity .3s;
+}
+
+.layout16_content.is-active {
+    transition-delay: 0.25s;
+}
+
+.layout16_content.is-active {
+    opacity: 1;
+}
+
+:root {
+  --padding-medium: 5rem;
+}
+
+@media only screen and (max-width: 769px) {
+:root {
+  --padding-medium: 3rem!important;
+}
+}
